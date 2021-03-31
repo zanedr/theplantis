@@ -1,0 +1,57 @@
+// fonts
+.inconsolata {
+  font-family: 'Inconsolata', monospace;
+}
+
+.font-green {
+  color: rgba(0, 128, 0, 0.5);
+}
+
+// custom widths - max width divided by *number*
+
+.mwp6 {
+  width: calc(100% / 6);
+}
+
+.mwp5 {
+  width: 20%;
+}
+
+.mwp4 {
+  width: 25%
+}
+
+.mwp3 {
+  width: calc(100% / 3);
+}
+
+// custom max widths for column
+
+.w-95 {
+  width: 95%;
+}
+
+//background color
+
+bg-white-100 {
+  background-color: #fff;
+}
+
+// hide overflow
+
+.hide-overflow {
+  overflow: hidden;
+}
+
+// animations
+
+.grow-3d {
+  transition-duration: 0.5s;
+  transform-style: preserve-3d;
+}
+
+.grow-3d:hover {
+  transition-duration: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+}
